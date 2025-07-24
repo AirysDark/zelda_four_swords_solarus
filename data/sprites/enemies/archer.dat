@@ -1,0 +1,2 @@
+bitmap = "archer.png"
+animation = { { x = 0, y = 0, width = 16, height = 16 } }

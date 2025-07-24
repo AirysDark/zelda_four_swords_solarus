@@ -1,0 +1,8 @@
+animation{
+  name = "glow"
+  src_image = "glow_tile.png"
+  frame_delay = 100
+  looping = true
+  directions = 1
+  frames = { {x=0,y=0}, {x=16,y=0}, {x=32,y=0}, {x=48,y=0} }
+}

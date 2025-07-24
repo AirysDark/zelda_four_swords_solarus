@@ -1,0 +1,50 @@
+-- This file was generated from hub_layout_design.json
+-- data/maps/four_swords/hub.dat
+
+properties {
+  name = "Four Swords Hub"
+  tileset = "outside"
+  width = 64
+  height = 64
+}
+
+entities {
+  npc {
+    name = "npc_left"
+    x = 96
+    y = 160
+    sprite = "npc/villager1"
+    direction = 0
+  }
+
+  npc {
+    name = "npc_right"
+    x = 224
+    y = 160
+    sprite = "npc/villager2"
+    direction = 2
+  }
+
+  destination {
+    name = "from_hub"
+    x = 160
+    y = 176
+  }
+
+  sensor {
+    name = "stair_trigger"
+    x = 152
+    y = 48
+    width = 16
+    height = 16
+    layer = 0
+  }
+
+  custom_entity {
+    name = "stair_marker"
+    x = 152
+    y = 48
+    layer = 0
+    sprite = "entities/glow_marker"
+  }
+}

@@ -1,0 +1,33 @@
+game.select_players
+What mode do you want to play?
+1. Solo
+2. 2 players
+3. 3 players
+4. 4 players
+
+npc.hub_1
+Welcome to the Four Swords Hub!
+Choose a portal to begin your adventure.
+
+npc.hub_2
+Defeat the boss and return here for rewards!
+
+hub.choose_level
+Which level?
+1. Dungeon 1
+2. Boss Room
+
+hub.choose_mode
+Choose mode:
+1. Local
+2. Online
+
+hub.local_count
+How many local players?
+1
+2
+3
+4
+
+hub.wait_players
+All players must be on the stairs to start!

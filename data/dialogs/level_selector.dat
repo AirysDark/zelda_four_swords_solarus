@@ -1,0 +1,19 @@
+level_selector_1 = Hello, heroes! Ready for your next challenge?
+level_selector_2.question = Choose a level (all players must agree):
+option_1 = 🌲 Forest Ruins
+option_2 = ❄️ Ice Cavern
+option_3 = 🔥 Fire Temple
+option_4 = ❌ Cancel
+
+level_selector_2.option_1 = Forest Ruins chosen! Awaiting other players...
+level_selector_2.option_2 = Ice Cavern selected! Confirming with the party...
+level_selector_2.option_3 = Fire Temple ahead! Gathering the team...
+level_selector_2.option_4 = Okay, take your time.
+
+level_selector_3_forest = The Forest Ruins are full of puzzles and secrets.
+level_selector_3_ice = The Ice Cavern is slippery and dangerous.
+level_selector_3_fire = The Fire Temple is hot and full of lava traps.
+
+level_selector_confirm.question = Start this level?
+confirm_option_1 = Yes, let's go!
+confirm_option_2 = No, back to menu.

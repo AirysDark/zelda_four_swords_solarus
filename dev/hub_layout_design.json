@@ -1,0 +1,42 @@
+{
+  "layout": "top-down",
+  "areas": {
+    "left": {
+      "type": "npc_zone",
+      "purpose": "level selection",
+      "position": "west",
+      "npc_id": "npc_left",
+      "dialog": "hub.choose_level"
+    },
+    "right": {
+      "type": "npc_zone",
+      "purpose": "player setup (local/online)",
+      "position": "east",
+      "npc_id": "npc_right",
+      "dialog": "hub.choose_mode"
+    },
+    "top": {
+      "type": "stair_trigger",
+      "purpose": "all players must reach here to start",
+      "position": "north",
+      "entity_id": "stair_trigger",
+      "marker_id": "stair_marker"
+    },
+    "center": {
+      "type": "spawn_zone",
+      "purpose": "players spawn and prepare",
+      "x": 160,
+      "y": 176
+    }
+  },
+  "tile_style": "snes_zelda",
+  "background_music": "hub",
+  "networking": {
+    "mode": [
+      "local",
+      "online"
+    ],
+    "net_script": "scripts/net_sync.lua",
+    "player_slots": 4
+  }
+}
